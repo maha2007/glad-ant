@@ -1,0 +1,9 @@
+.mainpic{
+  width: 100%;
+  top: 25vh;
+  /*bottom: 75vh;*/
+  height: 50vh;
+  background-color: blue; 
+  position: absolute;
+
+}
