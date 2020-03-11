@@ -10,17 +10,35 @@
     
     
 <style> 
-.curtain-top {
+
+.base-container-W0{
   width: 100%;
-  height: 50vh;
-  background-color: red;
+  height: 100vh;
+  background-color: yellow;
   position: relative;
-  animation-name: example;
+}
+
+.curtain{
+  width: 100%;
+  height: 48vh;
+  position: absolute;
+  background-color: red;
   animation-duration: 4s;
   /*animation-iteration-count: infinite;*/
 }
 
-@keyframes example {
+.top {
+  animation-name: exampleTop;
+}
+
+.bottom {
+  top: 52%;
+  /*animation-name: example;*/
+  /*animation-duration: 4s;*/
+  /*animation-iteration-nt: infinite;*/
+}
+
+@keyframes exampleTop {
   0%   {height: 50vh;}
   100% {height: 0vh;}
 }
@@ -29,10 +47,12 @@
     <title>Maha's Art</title>
   </head>
   <body> 
-    
-  <div class="curtain-top"> </div>
-    
 
+<div class="base-container-W0">    
+  <div class="curtain top"> </div>
+  <div class="curtain bottom"> </div>
+</div>    
 
+asdfsdf
   </body>
 </html>
