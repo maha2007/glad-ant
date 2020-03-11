@@ -1,9 +1,17 @@
 .mainpic{
-  width: 100%;
+  width: 70%; left: 15%; height: 50vh;
   top: 25vh;
   /*bottom: 75vh;*/
-  height: 50vh;
+  /*height: 70vh;*/
   background-color: blue; 
   position: absolute;
+  animation-name: mainPic;
+  animation-duration: 8s;
 
+}
+
+@keyframes mainPic {
+  0%   {width: 100%; left: 0%; top: 15vh; height: 70vh;}
+  50%  {width: 100%; left: 0%; top: 15vh; height: 70vh;}
+  100% {width: 70%; left: 15%; top: 25vh; height: 50vh;}
 }
