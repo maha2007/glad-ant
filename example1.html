@@ -1,50 +1,15 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+<head>
     
-    <link rel = "stylesheet" href = "style.css">
-    
+    <link rel = "stylesheet" href = "curtain.css">
+    <link rel = "stylesheet" href = "mainpic.css">
     <script src="script.js"></script>
     
     
 <style> 
 
-.base-container-W0{
-  width: 100%;
-  height: 100vh;
-  background-color: yellow;
-  position: relative;
-}
 
-.curtain{
-  width: 100%;
-  height: 0vh;
-  position: absolute;
-  background-color: red;
-  animation-duration: 4s;
-  /*animation-iteration-count: infinite;*/
-}
-
-.top {
-  animation-name: exampleTop;
-}
-
-.bottom {
-  top: 52%;
-  animation-name: exampleBottom;
-}
-
-@keyframes exampleTop {
-  0%   {height: 48vh;}
-  100% {height: 0vh;}
-}
-
-@keyframes exampleBottom {
-  0%   {height: 48vh;top: 52%;}
-  100% {height: 0vh;top: 100%;}
-}
 </style>
 
     <title>Maha's Art</title>
@@ -52,6 +17,10 @@
   <body> 
 
 <div class="base-container-W0">    
+  <div class="sidecurtain"></div>
+  
+  <div class="mainpic"></div>
+  
   <div class="curtain top"> </div>
   <div class="curtain bottom"> </div>
 </div>    
